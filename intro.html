@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>js Introduction</title>
+	<!--<script type="text/javascript" src="intro.js"></script>-->
+</head>
+<body>
+<h1>Introduction in Javascript</h1>
+<script>
+	/*document.write("Welcome to Javascript <br>");
+	document.write("The value is ",a);
+	var name='jdp'
+	document.write(name.length+"<br>");
+	name += ' sim'
+	document.write(name.length);
+    var name='reka ramya,geetha'
+    document.write(name)
+    var a=10.6;
+    document.write(typeof(a));
+    var a;
+    a +='jdp'
+    document.write(a);
+    var a=10;
+    var name='sim';
+    var g = true;
+    document.write(typeof(g));
+    var arr = ['sudha',1,true];
+    document.write(arr);
+    document.write(typeof(arr));
+    var arr=['sindhu','swapna','satya'];
+
+    console.log(arr);
+    document.write(arr[1]);
+    var arr=['sindhu','swapna','satya'];
+    document.write(arr[1]+" ");
+    document.write(arr[2]);
+    var trainee={
+    	'name':'hari',
+    	'rollno':1234,
+    	'college':'AEC',
+    	'branch':'CSE'
+    }
+    
+    console.log(trainee.name.length);
+    console.log(trainee.college);
+    console.log(trainee.branch);
+    document.write(trainee);*/
+    var trainees=[{
+    	'name':'hari',
+    	'rollno':1234,
+    	'college':'AEC',
+    	'branch':'CSE'
+    },
+    {
+    	'name':'ramya',
+    	'rollno':1268,
+    	'college':'ACET',
+    	'branch':'ECE'
+    },
+    {
+    	'name':'kiran',
+    	'rollno':3456,
+    	'college':'ACOE',
+    	'branch':'EEE'
+    }]
+    //console.log(trainees);
+    //console.log(trainees[0].name);
+    //console.log(trainees[1]);
+    for (var i = 0; i < trainees.length; i++){
+    	console.log(i+1,trainees[i].name,trainees[i].rollno,trainees[i].college,trainees[i].branch);
+    	console.log(trainees[i]);
+    	document.write(i+1,trainees[i].name,trainees[i].rollno,trainees[i].college,trainees[i].branch);
+    	document.write("<br>");
+    }
+  
+
+</script>
+</html>
+</body>

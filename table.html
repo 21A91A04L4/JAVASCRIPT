@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM Methods</title>
+</head>
+<body>
+	<table border="1" cellpadding="2">
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+	<script type="text/javascript">
+
+		let tds=document.getElementsByTagName('td');
+		var k=9
+		for(var i=0;i<tds.length;i++){
+			tds[i].innerText=k;
+			k--;
+		}
+	</script>
+
+</body>
+</html>

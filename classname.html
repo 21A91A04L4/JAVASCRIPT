@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DOM | Methods</title>
+</head>
+<body>
+	<p class="topic">HTML</p>
+	<p class="topic">CSS</p>
+	<p class="topic">BS</p>
+	<p class="topic">JS</p>
+	<ul>
+		<li>AEC</li>
+		<li>ACET</li>
+		<li>ACOE</li>
+	</ul>
+	<script type="text/javascript">
+		
+		/*let paras=document.getElementsByClassName('topic');
+		console.log(paras);
+		paras[0].innerHTML='hyper text markup language';
+		paras[0].style.color='red';
+		paras[2].innerHTML='Bootstrap';
+		let lis=document.getElementsByTagName('li');
+		console.log(lis)
+		lis[0].innerText ='Aditya Engineering College';
+		lis[0].style.color='green';*/
+		let ps=document.querySelector('.topic');//class selector
+		ps.innerText='hyper text markup language'
+		ps.innerText='cascading'
+		let lis=document.querySelector('li');//tag selector
+		lis.innerText='<span>Aditya college</span>'
+	</script>
+
+</body>
+</html>
